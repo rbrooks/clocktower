@@ -26,6 +26,7 @@ class ClockTower
             }
 
             if ($h < 13) {
+                // I imagine there's a more algorithmy way to do this.
                 $bellRingCount = $h;
             } elseif ($h < 25) {
                 $bellRingCount = ($h - 12);
